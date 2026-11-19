@@ -31,6 +31,7 @@ app.listen(port, () => {
 ```
 
 ## curlコマンド
+自分のパソコンの3000番ポートにGETリクエストが飛び、`app.get("/", ...)`の処理を行う。
 ```
 curl http://localhost:3000
 ```
