@@ -3,7 +3,7 @@ Node.jsとExpressを使い，「Hello, API!」と返すだけのHTTPサーバを
 
 ## ソースコード(.js)
 
-エクスプレスを用意
+Expressを読み込み、サーバーを作るためのアプリ本体を用意する。
 ```
 const express = require("express");
 const app = express();
