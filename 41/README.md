@@ -1,7 +1,7 @@
 # 41. シンプルなHTTPサーバ
-### Node.jsとExpressを使い，「Hello, API!」と返すだけのHTTPサーバを実装すること．
+Node.jsとExpressを使い，「Hello, API!」と返すだけのHTTPサーバを実装すること．
 
-#### ソースコード(.js)
+## ソースコード(.js)
 
 エクスプレスを用意
 ```
@@ -30,12 +30,12 @@ app.listen(port, () => {
 });
 ```
 
-#### curlコマンド
+## curlコマンド
 ```
 curl http://localhost:3000
 ```
 
-#### 出力結果
+## 出力結果
 ```
 Hello, API!
 ```
